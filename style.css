@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+}
+
+.main-header {
+  width: 90%;
+  height: 400px;
+  margin: 0px auto;
+  border-top: 3px solid black;
+  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 70px;
+  font-weight: 500;
+  color: #222;
+  position: absolute;
+  bottom: 0%;
+  left: 22.5%;
+  margin-bottom: 10px;
+}
+
+h1 .hi {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.experience h4, .training h4 {
+  margin-bottom: 0px;
+}
+.page {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  width: 60%;
+  margin: 30px auto;
+  line-height: 1.6;
+}
+
+main {
+  font-size: 1.2em;
+}
+
+main, section {
+  width: 90%;
+  margin: 0px auto;
+}
+
+section {
+  margin-top: 40px;
+}
+
+span {
+  font-weight: bold;
+}
+
+ul {
+  list-style: square;
+}
+
+li {
+  padding-left: 10px;
+}
+
+blockquote {
+  font-family: 'Roboto Slab', serif;
+  font-size: 45px;
+  font-weight: 900;
+  color: white;
+  background-color: #444444;
+  padding: 25px 5px 20px 35px;
+  margin: 40px auto;
+  position: relative;
+}
+
+blockquote:before {
+  content: '\201C';
+  font-size: 2em;
+  position: absolute;
+  top: -30px;
+  left: 2px;
+}
+
+.interests {
+  border-top: 3px solid black;
+}
