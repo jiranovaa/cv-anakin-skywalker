@@ -4,10 +4,11 @@ body {
 
 .main-header {
   width: 90%;
+  max-width: 1163px;
   height: 400px;
   margin: 0px auto;
   border-top: 3px solid black;
-  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  background-image: url("./cv-photo.png");
   background-repeat: no-repeat;
   background-size: auto 100%;
   position: relative;
