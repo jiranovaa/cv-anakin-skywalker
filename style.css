@@ -16,34 +16,34 @@ body {
 
 h1 {
   font-family: 'Abril Fatface', cursive;
-  font-size: 70px;
+  font-size: 5rem;
   font-weight: 500;
   color: #222;
   position: absolute;
   bottom: 0%;
-  left: 22.5%;
+  left: 15%;
   margin-bottom: 10px;
 }
 
 h1 .hi {
-  font-size: 30px;
+  font-size: 2rem;
   margin-bottom: 0px;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 h4 {
-  font-size: 1.4em;
+  font-size: 1.3rem;
 }
 
 h5 {
   font-family: 'Merriweather', serif;
-  font-size: 15px;
+  font-size: 1.1rem;
   font-style: italic;
   margin-top: 0px;
 }
@@ -60,7 +60,7 @@ h5 {
 }
 
 main {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 main, section {
@@ -76,6 +76,10 @@ span {
   font-weight: bold;
 }
 
+p {
+  font-size: 1rem;
+}
+
 ul {
   list-style: square;
 }
@@ -86,20 +90,20 @@ li {
 
 blockquote {
   font-family: 'Roboto Slab', serif;
-  font-size: 45px;
+  font-size: 2.5rem;
   font-weight: 900;
   color: white;
   background-color: #444444;
-  padding: 25px 5px 20px 35px;
+  padding: 25px 10px 20px 35px;
   margin: 40px auto;
   position: relative;
 }
 
 blockquote:before {
   content: '\201C';
-  font-size: 2em;
+  font-size: 4rem;
   position: absolute;
-  top: -30px;
+  top: -20px;
   left: 2px;
 }
 
